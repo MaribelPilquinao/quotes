@@ -15,7 +15,7 @@ const App = () =>{
    
 
 
-    const [background, setBackground] = useState(Math.floor(Math.random() * colors.length));
+    const [background, setBackground] = useState(colors[(Math.floor(Math.random() * colors.length))]);
 
 
     const handleNext = () =>{
